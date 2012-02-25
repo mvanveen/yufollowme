@@ -1,0 +1,128 @@
+/* line 5, ../sass/style.sass */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+/* line 9, ../sass/style.sass */
+.header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(100%, #000000));
+  background: -webkit-linear-gradient(#333333, #000000);
+  background: -moz-linear-gradient(#333333, #000000);
+  background: -o-linear-gradient(#333333, #000000);
+  background: -ms-linear-gradient(#333333, #000000);
+  background: linear-gradient(#333333, #000000);
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+/* line 16, ../sass/style.sass */
+.header .headerWrapper {
+  padding: 20px;
+  overflow: hidden;
+}
+/* line 19, ../sass/style.sass */
+.header .headerWrapper .logo {
+  float: left;
+}
+/* line 21, ../sass/style.sass */
+.header .headerWrapper .aboutLink {
+  display: block;
+  float: right;
+  color: white;
+}
+
+/* line 26, ../sass/style.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 30, ../sass/style.sass */
+.people a {
+  display: block;
+}
+/* line 32, ../sass/style.sass */
+.people a:hover {
+  background: #f3f3f3;
+}
+
+/* line 36, ../sass/style.sass */
+.tweets p {
+  display: none;
+  line-height: 1.4em;
+  color: #555555;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 46, ../sass/style.sass */
+ul.slats li {
+  padding: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 49, ../sass/style.sass */
+ul.slats li:last-child {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+/* line 53, ../sass/style.sass */
+ul.slats li a h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+/* line 58, ../sass/style.sass */
+ul.slats li a img {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px;
+  border: 1px solid #eeeeee;
+}
+
+/* line 64, ../sass/style.sass */
+ul.slats li a:hover img {
+  background: #eeeeee;
+}
+
+/* line 67, ../sass/style.sass */
+ul.slats li a p {
+  margin: 0 0 0 76px;
+  line-height: 1.4;
+  color: #555555;
+}
+
+/* line 72, ../sass/style.sass */
+ul.slats li a p span.meta {
+  display: block;
+  font-size: 12px;
+  color: #999999;
+}
+
+/* line 80, ../sass/style.sass */
+.people {
+  width: 35%;
+  float: left;
+}
+
+/* line 85, ../sass/style.sass */
+.tweets {
+  width: 65%;
+  float: right;
+}
+
+/* line 89, ../sass/style.sass */
+.tweetsWrapper {
+  padding: 20px;
+}
+
+/* line 92, ../sass/style.sass */
+.nonHeader {
+  padding: 60px 0px 0px 0px;
+}
